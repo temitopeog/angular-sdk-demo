@@ -1,27 +1,22 @@
-# AngularSdkDemo
+# Angular SDK examples
+> Currently, the project is using Angular 14.2.4.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4
 
-## Development server
+The goal of this project is to show one way to set up the Split SDK in Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting started
+_Optional:_ If `nvm` is locally installed, run `nvm i` to set the required Node version. 
+- `npm install --legacy-peer-deps`
+- `npm start` will start a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
+>_Note:_ To effectively test the SDK, you need to set the corresponding Browser [Api key](https://help.split.io/hc/en-us/articles/360020448791-JavaScript-SDK#2-instantiate-the-sdk-and-create-a-new-split-client). 
+>The API key is available on your *Organization Settings* page, on the *APIs* tab. Remember to choose `browser` type.
+>In addition to that, you may want to create some Split/s in the admin and then update [the list of features defined in the code example](https://github.com/splitio/angular-sdk-examples/blob/efant_updateExample/src/app/splitio.service.ts#L27-L31).
+> Documentation can be found at - https://help.split.io/hc/en-us/articles/6495326064397-Angular-utilities
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+If you need help with Split usage, please reach out to support@split.io.
+# angular-sdk-demo
