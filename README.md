@@ -18,6 +18,4 @@ _Optional:_ If `nvm` is locally installed, run `nvm i` to set the required Node 
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-If you need help with Split usage, please reach out to support@split.io.
-# angular-sdk-demo
-# angular-sdk-demo
+If you need help with Split usage, please reach out to support@split.io or temitope.ogunrekun@split.io
