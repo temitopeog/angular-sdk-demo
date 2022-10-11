@@ -22,19 +22,19 @@ Import the utilities into your project using the following NPM command:
 - `npm install --save @splitsoftware/splitio-angular@0.3.0 --legacy-peer-deps`
 
 2)	Instantiate the service
-•	Import and inject the service into a service file
-•	Create an instance of the service by initializing the Split configuration e.g through “initPlugin” method
-•	make sure you add your Split SDK
-•	make sure you add your default key
-•	Create a method that takes a key to initialise a client (singleton) 
-•	Call initClient & pass the key
-•	Depending on your use-case, you can create methods sdkReady, sdkReadyTimedOut, sdkReadyFromCache and sdkUpdate from the event observables exposed by the SDK.
+-	Import and inject the service into a service file
+-	Create an instance of the service by initializing the Split configuration e.g through “initPlugin” method
+-	make sure you add your Split SDK
+-	make sure you add your default key
+-	Create a method that takes a key to initialise a client (singleton) 
+-	Call initClient & pass the key
+-	Depending on your use-case, you can create methods sdkReady, sdkReadyTimedOut, sdkReadyFromCache and sdkUpdate from the event observables exposed by the SDK.
 
 3)	Using the service
-•	In your component, import the created service file and inject the service
-•	Within your constructor, call the “initPlugin” method to instantiate the service
-•	Initialise the client with a new key – perhaps the user key you want to serve a treatment
-•	You can now finally use any of the created methods like sdkReady, to check if the SDK is ready before you make a getTreatment or getTreatmentWithConfig call.
+-	In your component, import the created service file and inject the service
+-	Within your constructor, call the “initPlugin” method to instantiate the service
+-	Initialise the client with a new key – perhaps the user key you want to serve a treatment
+-	You can now finally use any of the created methods like sdkReady, to check if the SDK is ready before you make a getTreatment or getTreatmentWithConfig call.
 
 
 ## Further help
