@@ -14,7 +14,7 @@ initPlugin() {
   // Create the config for the plugin.
   const sdkConfig = {
     core: {
-      authorizationKey: 'APIKEY_FROM_SPLIT_CONSOLE', // split apikey
+      authorizationKey: 'iuoqavr1ij0uoa0b53psqquoiur5ftqonj7i', //'APIKEY_FROM_SPLIT_CONSOLE', // split apikey
       key: 'key' // initial key
     }
   };
